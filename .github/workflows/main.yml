@@ -23,8 +23,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.2
         with:
-          version: 12
-          
+          version: 12      
      - name: GitHub Action for Yarn Pkg
        uses: funkyremi/yarn-github-action@1.0.0
        with:
